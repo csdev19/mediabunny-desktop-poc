@@ -1,0 +1,6 @@
+{
+  "name": "mediabunny-poc-tauri",
+  "private": true,
+  "scripts": { "dev": "tauri dev", "start": "cargo run --manifest-path src-tauri/Cargo.toml" },
+  "devDependencies": { "@tauri-apps/cli": "^2.12.4" }
+}

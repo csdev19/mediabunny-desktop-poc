@@ -1,0 +1,7 @@
+{
+  "name": "mediabunny-poc-mygo",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "mygo build" },
+  "devDependencies": { "mygo-cli": "^0.7.4" }
+}

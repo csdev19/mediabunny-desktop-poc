@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Mediabunny PoC</title>
+<style>
+  body { font: 14px system-ui, sans-serif; margin: 20px; max-width: 760px; }
+  h1 { font-size: 18px; margin: 0 0 4px; }
+  #env { color: #666; margin-bottom: 14px; word-break: break-all; }
+  button, input { margin-right: 8px; }
+  table { border-collapse: collapse; margin-top: 14px; width: 100%; }
+  td { border-bottom: 1px solid #ddd; padding: 6px 4px; vertical-align: top; }
+  td:first-child { width: 220px; font-weight: 600; }
+  .PASS { color: #0a7d2c; font-weight: 700; }
+  .FAIL { color: #c0182b; font-weight: 700; }
+  .SKIP { color: #999; font-weight: 700; }
+  canvas { border: 1px solid #ccc; margin-top: 10px; max-width: 320px; }
+  pre { background: #f4f4f4; padding: 8px; overflow: auto; }
+</style>
+</head>
+<body>
+  <h1>Mediabunny PoC</h1>
+  <div id="env"></div>
+  <button id="run-sample">Run on bundled sample.mp4</button>
+  <input id="file" type="file" accept="video/*,audio/*" />
+  <table id="results"></table>
+  <canvas id="thumb"></canvas>
+  <pre id="json"></pre>
+  <script src="bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "name": "mediabunny-poc-web",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "node build.mjs" },
+  "pnpm": { "onlyBuiltDependencies": ["esbuild"] },
+  "dependencies": { "mediabunny": "^1.65.2" },
+  "devDependencies": { "esbuild": "^0.25.0" }
+}
